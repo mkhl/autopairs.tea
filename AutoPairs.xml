@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-recipes>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.Paren" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Parenthesize Block</title>
+		<key-equivalent>control (</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA[($SELECTED_TEXT)]]></string>
+					<key>undo_name</key>
+					<string>Parenthesize Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.Bracket" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Bracket Block</title>
+		<key-equivalent>control [</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA[[$SELECTED_TEXT]]]></string>
+					<key>undo_name</key>
+					<string>Bracket Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.Brace" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Brace Block</title>
+		<key-equivalent>control {</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA[{$SELECTED_TEXT}]]></string>
+					<key>undo_name</key>
+					<string>Brace Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.Angle" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Angle-Bracket Block</title>
+		<key-equivalent>control &lt;</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA[<$SELECTED_TEXT>]]></string>
+					<key>undo_name</key>
+					<string>Angle-Bracket Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.DoubleQuote" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Double-Quote Block</title>
+		<key-equivalent>control "</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA["$SELECTED_TEXT"]]></string>
+					<key>undo_name</key>
+					<string>Double-Quote Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.SingleQuote" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Single-Quote Block</title>
+		<key-equivalent>control '</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA['$SELECTED_TEXT']]></string>
+					<key>undo_name</key>
+					<string>Single-Quote Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+	<action id="org.purl.net.mkhl.actions.AutoPairs.Backquote" category="actions.text.AutoPairs">
+		<class>TEAforEspresso</class>
+		<title>Backquote Block</title>
+		<key-equivalent>control `</key-equivalent>
+		<setup>
+			<action>selections_to_text</action>
+			<options>
+				<dict>
+					<key>default</key>
+					<string><![CDATA[`$SELECTED_TEXT`]]></string>
+					<key>undo_name</key>
+					<string>Backquote Block</string>
+				</dict>
+			</options>
+		</setup>
+		<syntax-context>sourcecode, sourcecode *</syntax-context>
+	</action>
+
+</action-recipes>

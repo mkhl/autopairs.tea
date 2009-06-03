@@ -1,0 +1,30 @@
+# AutoPairs.tea
+
+AutoPairs support for [TEA for Espresso][tea].
+
+
+## Installation
+
+* Create a copy (or clone, or link to) of this folder in your
+  `~/Library/Application Support/Espresso/TEA/TextActions/` folder.
+
+* Make sure that `Custom User Actions` are enabled (you can do this from the
+  `Actions→TEA` menu).
+
+* Restart Espresso **twice**.
+
+
+## Usage
+
+When typing a paired delimiter, type it with the ⌃(Control) key depressed to
+insert the pair instead. When you have selected some text, the delimiters will
+wrap around the selection.
+
+
+## Known Problems
+
+Using the AutoPairs commands while “filling out” a snippet will cancel all
+remaining tab stops of the snippet and stop mirroring your changes.
+
+
+[tea]: http://github.com/onecrayon/tea-for-espresso/
